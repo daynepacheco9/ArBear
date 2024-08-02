@@ -10,11 +10,10 @@ html{
     height: 100%;
 }
 
-header{
+nav {
     display: flex;
     font-size: 0.5rem;
     justify-content: space-between;
-    width: 100vw;
     height: 5vh;
     padding: 1vw;
     background-color: black;
