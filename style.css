@@ -29,8 +29,17 @@ nav {
 section{
     min-height: 95vh;
     min-width: 33.33vw;
+    display: flex;
 }
 
 img{
-    width: 20vw;
+    width: 300px;
+    height: auto;
+}
+.versiculo{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
