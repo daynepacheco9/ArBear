@@ -26,20 +26,35 @@ nav {
     color: white;
     align-items: center;
 }
-section{
+/* section{
     min-height: 95vh;
     min-width: 33.33vw;
     display: flex;
-}
+} */
 
 img{
     width: 300px;
-    height: auto;
+    height: 400px;
 }
 .versiculo{
+    min-width: 33vw;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
     flex-direction: column;
+}
+.foto{
+    display: flex;
+    align-items: center;
+    padding: 10vw;
+    justify-content: center;
+}
+.declaracao{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    padding: 10vw;
+    align-items: center;
+    gap: 20px;
 }
